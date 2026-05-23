@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.reyaz</groupId>
-	<artifactId>myapp</artifactId>
+	<artifactId>myapp-SNAPSHOT</artifactId>
 	<packaging>war</packaging>
 	<version>8.3.3</version>
-	<name>myapp-SNAPSHOT</name>
+	<name>myapp</name>
 	<url>http://maven.apache.org</url>
 	 <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
