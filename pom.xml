@@ -53,11 +53,11 @@
 	
 <distributionManagement>
     <repository>
-        <id>maven-releases</id>
-        <url>http://13.221.112.236:8081/repository/java-maven-project-release/</url>
+        <id>java-maven-project-release</id>
+        <url>http://13.221.112.236:8081/repository/java-maven-project-release</url>
     </repository>
     <snapshotRepository>
-        <id>maven-snapshots</id>
+        <id>java-maven-project-snapshot</id>
         <url>http://13.221.112.236:8081/repository/java-maven-project-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
