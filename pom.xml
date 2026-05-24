@@ -52,14 +52,19 @@
 	</pluginRepositories>
 	
 <distributionManagement>
+
+    <!-- Release Repository -->
     <repository>
-        <id>maven-releases</id>
-        <url>http://54.234.180.239:8081/repository/maven-releases/</url>
+        <id>nexus-releases</id>
+        <url>http://100.54.204.97:8081/repository/java-maven-project-release/</url>
     </repository>
+
+    <!-- Snapshot Repository -->
     <snapshotRepository>
-        <id>maven-snapshots</id>
-        <url>http://54.234.180.239:8081/repository/maven-snapshots/</url>
+        <id>nexus-snapshots</id>
+        <url>http://100.54.204.97:8081/repository/java-maven-project-snapshot/</url>
     </snapshotRepository>
+
 </distributionManagement>
 	
 </project>
